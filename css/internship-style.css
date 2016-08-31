@@ -1,0 +1,235 @@
+/* CSS Document */
+
+fieldset { 
+  /*  display: inline-block; */
+/*	width: 99%; */
+	margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 1px groove;
+	box-sizing:border-box;
+}
+
+ul.checkbox, ul.checkbox3  { 
+  margin: 0; 
+  padding: 0; 
+/*  margin-left: 20px; */
+  list-style: none;  
+} 
+
+ul.checkbox li input { 
+  margin-right: .25rem; 
+} 
+
+ul.checkbox > li { 
+ /* border: 1px transparent solid;  */
+  display:inline-block;
+  width: 11.5rem;
+} 
+
+ul.checkbox3 > li { 
+  display:inline-block;
+  width: 7.5rem;
+} 
+
+ul.radio-button > li { 
+  display:inline-block;
+  width: 7.5rem;
+} 
+ul.checkbox-other > li { 
+  display:inline-block;
+  width: 7.5rem;
+} 
+
+ul.checkbox li label { 
+/*  margin-left: ;  
+  float: left;
+  clear: right;
+  */
+} 
+
+.internform-column1, .internform-column2 {
+	display: inline-block;
+	width: 50%;
+	vertical-align: text-top;
+	}
+
+.internform-column1-display, .internform-column2-display {
+	display: inline-block;
+	width: 49%;
+	vertical-align: text-top;
+/*	background-color: #EFEFEF;  */
+/*	border: 1px #666 solid; */
+	
+	}
+	
+.internform-other-display {
+/*	border: 1px #666 solid; */
+	}	
+
+	
+.internform-column1 > fieldset > input[type=text], .internform-column2 > fieldset > input[type=text] {
+		width: 96%;
+		padding: 8px 10px;
+    	margin: 2px 0;
+	    box-sizing: border-box;
+		border-radius: 4px;
+}
+
+.intern-select {
+  background: transparent;
+   width: 245px;
+/*   padding: 5px; */
+   display: inline-block;
+   margin: 2px 0;
+/*   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   */
+   height: 41px;
+   -webkit-appearance: none;
+
+	}
+.intern-select select {
+    height: 39px;
+    padding: 8px 6px; 
+
+	
+	 }
+fieldset > input[type=text].addterm {
+		width: 40%;
+		padding: 8px 10px;
+    	margin: 2px 0;
+	    box-sizing: border-box;
+		border-radius: 4px;
+	
+	}
+fieldset > input[type=text].addterm-location {
+		width: 40%;
+		padding: 8px 10px;
+    	margin: 5px 0;
+	    box-sizing: border-box;
+		border-radius: 4px;
+        height: 42px;
+
+
+	}
+	
+.internform-space-filler {
+		width: 100%;
+		min-height: 21px;
+		padding: 8px 10px;
+		margin: 2px 0;
+	}
+.internform-column1 > textarea {
+    width: 100%;
+    height: 200px;
+    padding: 8px 10px;
+    box-sizing: border-box;
+/*    border: 1px solid #555; */
+    border-radius: 4px;
+/*    background-color: #f8f8f8; */
+    resize: none;
+	vertical-align: top;
+
+	}
+.internform-column2 > input[type=textarea]	{
+    width: 100%;
+    height: 200px;
+ /*   padding: 8px 10px; */
+    box-sizing: border-box;
+/*    border: 1px solid #555; */
+    border-radius: 4px;
+/*    background-color: #f8f8f8; */
+    resize: none;
+	vertical-align: top;
+	wrap="hard";
+
+	}
+	
+ 
+.internform-column1 > input[type=text]:focus, .internform-column2 > input[type=text]:focus, internform-column2 > textarea:focus  {
+    border: 1px solid #555;
+	
+}
+.internform-other {
+	width: 100%;
+	}
+.internform-other > input {
+	width: 100%;
+	
+	}	
+.internform-other-display {
+	width: 100%;
+	}	
+.internform-column1 > label, .internform-column2 > label, .internform-other > label {	
+	font-weight: 700;
+
+	
+}
+
+
+.column.one {
+	min-width: 80%;
+	}
+
+.internTable {
+	display: table;
+	width: 100%;
+	}
+.internTableRow {
+	display: table-row;
+	}	
+.internTableHeading {
+	display: table-header-group;
+	background-color: #ddd;
+	
+	}	
+.internTableBody {
+	display: table-row-group;
+	}
+	
+.internTableCell, .internTableHead {
+	display: table-cell;
+	padding: 3px 10px;
+	border: 1px solid #999999;
+	}	
+.internTableHead {
+	background-color: #4f868e;
+	font-weight:700;
+	color: #fff;
+	}	
+.internTableFoot {
+	display: table-footer-group;
+	}	
+
+.promo-item {
+    padding: 0 0 1rem 0;
+	}	
+.promo-image {
+	display: inline-block;
+	max-width:25%;
+	right-margin: 5px;
+	padding: 0 5px 0 0;
+	
+	}	
+.promo-content {	
+    vertical-align: top;
+    display: inline-block;
+    max-width: 75%;
+}
+
+.full-item {
+    padding: 0 0 1rem 0;
+	}	
+
+.full-content {	
+    vertical-align: top;
+    display: inline-block;
+    max-width: 100%;
+}
+
