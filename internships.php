@@ -3,8 +3,8 @@
 * Plugin Name: CAHNRSWP Internships 
 * Plugin URI:  http://cahnrs.wsu.edu/communications/
 * Description: CAHNRSWP Internships post type, taxonomy and display
-* Version:     0.0.1
-* Author:      CAHNRS Communications, Don Pierce
+* Version:     0.8
+* Author:      CAHNRS Communications, Don Pierce, Danial Bleile
 * Author URI:  http://cahnrs.wsu.edu/communications/
 * License:     Copyright Washington State University
 * License URI: http://copyright.wsu.edu
