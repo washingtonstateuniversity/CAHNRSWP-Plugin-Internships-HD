@@ -71,7 +71,7 @@ abstract class CAHNRSWP_Internship {
 		
 		} //end init
 
-
+/*
 	  public function internship_search () {
 		  		  
 		  ob_start();
@@ -82,7 +82,7 @@ abstract class CAHNRSWP_Internship {
 		  return ob_get_clean();
 		  
 	 } // end intership_search
-	 
+*/	 
 	   
 
 	
